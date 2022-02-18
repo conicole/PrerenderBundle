@@ -1,5 +1,5 @@
 {
-    "name": "setono/prerender-bundle",
+    "name": "conicole/prerender-bundle",
     "type": "symfony-bundle",
     "description": "A Symfony bundle that integrates 'prerender' services, i.e. rendertron or prerender.io",
     "license": "MIT",
