@@ -18,7 +18,7 @@ abstract class AbstractPrerenderer implements PrerendererInterface
 
     protected function getMainRequest(): Request
     {
-        $request = $this->requestStack->getMasterRequest();
+        $request = $this->requestStack->getMainRequest();
         if (null === $request) {
             throw new \RuntimeException('You are not calling this method inside a request/response lifecycle');
         }
